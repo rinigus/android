@@ -24,6 +24,10 @@
 
   <project path="android" name="CyanogenMod/android" />
 
+  <!-- MAKO base repositories -->
+  <project name="CyanogenMod/android_device_lge_mako" path="device/lge/mako" remote="github" revision="stable/cm-12.1-YOG4P" />
+  <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="stable/cm-12.1-YOG7D" />
+
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
